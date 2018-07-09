@@ -1,6 +1,10 @@
 <?php 
 
+    session_start();
+    include_once "functions.php";
+    
 	$nazivApp = "Edunova";
+    $idAPP="EdunovaV1moje";
 
 	switch($_SERVER["HTTP_HOST"]){
     case "localhost":
