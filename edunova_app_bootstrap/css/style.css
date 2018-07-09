@@ -1,3 +1,9 @@
 .login li {
 	list-style: none;
 }
+.active {
+	background: #1779ba;
+}
+.navbar .navbar-brand {
+	padding: 10px 15px;
+}
