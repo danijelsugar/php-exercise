@@ -11,6 +11,7 @@
       if(isset($_SESSION[$idAPP."o"])):
       stavkaIzbornika($putanjaAPP, "privatno/dashboard.php", "Dashboard");
       stavkaIzbornika($putanjaAPP, "privatno/PDO.php", "PDO");
+      stavkaIzbornika($putanjaAPP, "privatno/smjerovi/index.php", "Smjerovi");
       endif;
       stavkaIzbornika($putanjaAPP, "about-us.php", "About Us");
       stavkaIzbornika($putanjaAPP, "contact.php", "Contact");
