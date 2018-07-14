@@ -14,8 +14,6 @@ if(!isset($_SESSION[$idAPP."o"])){
 
 	<?php include_once "../template/navbar.php" ?>
 	<?php 
-		//$veza = new PDO("mysql:host=localhost;dbname=edunovapp17","edunova","edunova");
-		$veza = new PDO("mysql:host=sql304.byethost.com;port=3306;dbname=b16_21955356_edunovapp17","b16_21955356","bogibatina13");
 		$izraz = $veza->prepare("select * from smjer");
 		$izraz->execute();
 		$rezultati = $izraz->fetchAll(PDO::FETCH_OBJ);
